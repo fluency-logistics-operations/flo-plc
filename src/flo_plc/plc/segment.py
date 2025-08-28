@@ -1,5 +1,8 @@
+from __future__ import annotations
+from typing import Optional
+
 class Segment:
-    def __init__(self, name: str, args_repr: str | None = None):
+    def __init__(self, name: str, args_repr: Optional[str] = None):
         self.name = name
         self.args_repr = args_repr
 
