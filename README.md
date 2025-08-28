@@ -8,7 +8,7 @@
 
 ## Public Layer Client (PLC)
 
-FLO PLC is a lightweight Python client that converts dot-notation calls into RPC requests against the FLO Remote Execution Server (RES).  
+FLO PLC is a lightweight Python client that converts dot-notation calls into Remote Procedure Call (RPC) requests against the FLO Remote Execution Server (RES).  
 It provides a predictable interface for Data Engineers working with operational datasets at scale.
 
 ---
