@@ -1,6 +1,10 @@
 
 # Fluency Logistics Operations (FLO)
 
+[![PyPI version](https://img.shields.io/pypi/v/FluencyLogisticsOperations.svg)](https://pypi.org/project/FluencyLogisticsOperations/)
+[![PyPI downloads](https://img.shields.io/pypi/dm/FluencyLogisticsOperations.svg)](https://pypi.org/project/FluencyLogisticsOperations/)
+[![Python versions](https://img.shields.io/pypi/pyversions/FluencyLogisticsOperations.svg)](https://pypi.org/project/FluencyLogisticsOperations/)
+
 ## Public Layer Client (PLC)
 
 FLO PLC is a lightweight Python client that converts dot-notation calls into RPC requests against the FLO Remote Execution Server (RES).  
