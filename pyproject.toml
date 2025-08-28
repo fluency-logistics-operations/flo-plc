@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "FluencyLogisticsOperations"
-version = "0.1.2"
+version = "0.1.3"
 description = "FLO Public Layer Client (PLC): dot-notation to /rpc (form-encoded), returns pandas DataFrames"
 readme = "README.md"
 authors = [{ name = "Braden Keith" }]
@@ -27,5 +27,5 @@ Source = "https://github.com/fluency-logistics-operations/flo-plc"
 
 [tool.setuptools]
 package-dir = {"FluencyLogisticsOperations" = "src/flo_plc"}
-packages = ["FluencyLogisticsOperations"]
+packages = ["FluencyLogisticsOperations", "FluencyLogisticsOperations.plc"]
 include-package-data = true
