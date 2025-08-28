@@ -19,6 +19,6 @@ def test_positional_identifier_unquoted():
 
 def test_kwargs_are_quoted():
     flo = FLO(base_url="https://example.com", token_provider=lambda: "TOKEN", session=DummySession())
-    df = flo.client.resource.list(limit=100, created_after="2025-08-01")
-    assert flo.session.last["data"]["method"] == "client.resource.list(limit=100, created_after=\"2025-08-01\")"
+    df = flo.client.resource.collect(limit=100, created_after="2025-08-01")
+    assert flo.session.last["data"]["method"] == "client.resource.collect(limit=100, created_after=\"2025-08-01\")"
     assert not df.empty
